@@ -1,4 +1,6 @@
 .venv/
+skin-cancer-mnist-ham10000/
+KaggleData.ipynb
 
 # Ignore Kaggle credentials
 kaggle.json
