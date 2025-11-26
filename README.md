@@ -16,11 +16,10 @@ It includes **both benign and malignant lesion classes**, allowing for effective
 
 ## Methodology  
 ### Pre-processing*
-- Images are resized, normalized (pixel values scaled, e.g., from `[0,255]` → `[0,1]`).  
+- Images are resized, normalized (pixel values scaled).  
 - Data augmentation (flips, rotations, zoom) applied to enhance training variety and mitigate class imbalance.
 
 ### Model Architecture*
-- A convolutional neural network is used (specify your architecture).  
 - Layers include: convolutional blocks, pooling, dropout for regularisation, flatten and dense layers for classification.  
 - The final layer uses softmax (for multi-class) or sigmoid (for binary) classification.
 
